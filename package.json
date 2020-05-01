@@ -57,7 +57,9 @@
     "benchmark:browser": "echo \"Error: no benchmarks yet\" && exit 1",
     "release": "aegir release -t node -t browser",
     "release-minor": "aegir release --type minor -t node -t browser",
-    "release-major": "aegir release --type major -t node -t browser"
+    "release-major": "aegir release --type major -t node -t browser",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@hapi/ammo": "^3.1.1",
@@ -190,7 +192,8 @@
     "uri-to-multiaddr": "^3.0.1",
     "varint": "^5.0.0",
     "yargs": "^14.0.0",
-    "yargs-promise": "^1.1.0"
+    "yargs-promise": "^1.1.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "aegir": "^20.3.1",
@@ -352,5 +355,6 @@
     "victorbjelkholm <victorbjelkholm@gmail.com>",
     "Łukasz Magiera <magik6k@users.noreply.github.com>",
     "Максим Ильин <negamaxi@gmail.com>"
-  ]
+  ],
+  "snyk": true
 }
