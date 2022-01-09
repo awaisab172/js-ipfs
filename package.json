@@ -124,7 +124,7 @@
     "iso-url": "~0.4.6",
     "it-pipe": "^1.0.1",
     "it-to-stream": "^0.1.1",
-    "just-safe-set": "^2.1.0",
+    "just-safe-set": "^4.0.2",
     "kind-of": "^6.0.2",
     "ky": "^0.14.0",
     "ky-universal": "~0.3.0",
