@@ -62,7 +62,7 @@
   "dependencies": {
     "@hapi/ammo": "^3.1.1",
     "@hapi/boom": "^7.4.3",
-    "@hapi/hapi": "^18.3.2",
+    "@hapi/hapi": "^19.0.0",
     "@hapi/joi": "^15.0.0",
     "array-shuffle": "^1.0.1",
     "async": "^2.6.1",
@@ -141,7 +141,7 @@
     "libp2p-record": "~0.7.0",
     "libp2p-secio": "~0.11.0",
     "libp2p-tcp": "^0.13.0",
-    "libp2p-webrtc-star": "~0.16.0",
+    "libp2p-webrtc-star": "~0.20.0",
     "libp2p-websocket-star-multi": "~0.4.3",
     "libp2p-websockets": "~0.12.3",
     "lodash": "^4.17.15",
